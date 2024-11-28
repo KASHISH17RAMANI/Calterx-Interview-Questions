@@ -1,0 +1,12 @@
+You are working on a calendar feature that finds a day where a group pf people are all free. Each person has a range of days they are unavailable, called a 'block'. In total there are 'N' blocks to consider. How can you find all the days where everyone is available.
+
+One person can have more than one block and block can’t overlap. An unavailability can start just before or just after another one ends. You may assume unavailabilities inclusive of start/end day
+
+Class Block
+{
+int personId;
+int startDay;
+int endDay;
+}
+
+List findAvailability(int totalPeople, List blocks)

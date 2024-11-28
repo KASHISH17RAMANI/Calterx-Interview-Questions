@@ -1,0 +1,19 @@
+1)there is a necklace of Rubys and diamonds containing 2*d number of diamonds and 2*r number of rubies, eg. RDRDDDRDRD
+You have to make 2 cuts in the necklace such that number of rubys and  number of diamonds in both halves are equal
+follow up : is there any optimization possible
+ans: sliding window
+
+2) Given a bot and flowing stream of string, the bot outputs messages in a not-so-human readable format. Your job is to make the output human readable by outputting a message only if it has not been output in the last 10 seconds
+<timestamp>  <message>
+ex. 
+1 shreya is typing
+2 kashish is reading
+3 maybe satya is reading too
+8 shreya is typing
+31 shreya is typing
+
+ans: unordered map
+follow up? when will you update the map? not when you see the message within 10 seconds of its last occurrence, but when you see it from last time you printed it.
+
+so you will update the map first at 1, then at 31, not 10
+is there any way to optimize this such that we do not get memory overflow

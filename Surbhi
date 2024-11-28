@@ -1,0 +1,28 @@
+[10/11, 1:24 pm] +91 95113 19457: 2)Stream of characters are coming as input (not the whole string ) 
+Like GGGYYYFFKKK and give an integer k = 3 so basically you have to make a function that returns the characters that follow a criteria ( that making a group of 3(k)  and the group should have same characters in one group ) 
+GGG  YYY  FFK KK
+Answer : G Y F
+Solution hashset + optimization using 2 variables
+[10/11, 1:24 pm] +91 95113 19457: Here are the questions: 
+1) in a classroom, a number was written on the blackboard and students were supposed to see the number once and then turn around. Students remembered some part of number ( for example if the number was 123457 some remembered 123 another remembered 37..) so basically you are given a list of guesses by the students and you have to return the correct number. 
+Sol: topological sort - graph
+[10/11, 1:24 pm] +91 95113 19457: 3) given a file with chat data like
+Surbhi 10:00am Hi 
+Shreya 10:01am Hi!!
+Find the N most active people in the chat 
+Lots of follow up questions about optimisations and we will consider letters/ words
+Solution : priority queue
+[10/11, 1:24 pm] +91 95113 19457: 4) given a hidden word like 
+PLANE, 
+You have design a game which returns the hints to the user to guess this given word using 3 rules yellow, green and red (basically like WORDLE) 
+Yellow : means the specific letter is present in the word but not that location 
+Red: letter not present 
+Green : place and letter both correct 
+The hints should be present in the dictionary also, some other constraints were also present 
+Hidden word : PLANE
+Yellow : AN - - -
+Red : Q- - TC
+Green : P - - - E
+The function input is dictionary , yellow, red and green 
+Answer : [PBANE, PARNE, ….] 
+Solution : Queue

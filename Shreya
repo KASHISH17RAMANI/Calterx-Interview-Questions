@@ -17,3 +17,25 @@ follow up? when will you update the map? not when you see the message within 10 
 
 so you will update the map first at 1, then at 31, not 10
 is there any way to optimize this such that we do not get memory overflow
+
+ROUND 2
+
+Movie Recommendation system
+Given movies and their ratings: 
+“Movie A has rating:6”
+“Movie B has rating:7”
+“Movie C has rating:8”
+“Movie D has rating:9”
+
+and given similarity between movies
+“A is similar to B”
+“B is similar to C”
+
+given the value of k and a movie name, return top k rated movies that are similar to that movie.
+
+Solution: DSU and priority queue
+
+Round 3: Given a network of connected edges, and some nodes that have failed, return if it is possible to reach a destination starting from a source
+
+Follow up: return the minimum distance to reach all nodes starting from source
+

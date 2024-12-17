@@ -39,3 +39,16 @@ Round 3: Given a network of connected edges, and some nodes that have failed, re
 
 Follow up: return the minimum distance to reach all nodes starting from source
 
+ROUND 4:
+[14:28, 17/12/2024] Shreya: Your task is to write a function that, given a distance d and a stream
+of floating point values received one at a time, checks for groups of
+three values within d distance of one another. Store the floating point values
+in memory as they are received. When a group of three values meeting the
+distance criteria is found, return the three values and remove them from the
+memory
+[14:31, 17/12/2024] Shreya: |a-b|<=d
+|b-c|<=d
+|c-a|<=d 
+Where d is the distance
+a,b,c is the triplet
+All values in flowing stream are floats
